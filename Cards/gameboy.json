@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "descriptionTerm": "handhelds_gameboy_description",
+    "icon": "gameboy.png",
+    "id": "handhelds_gameboy",
+    "nameTerm": "handhelds_gameboy_name",
+    "type": "Equipable",
+    "value": 3,
+    "_IsShiny": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#b7b6c2",
+        "Color2": "#a3a2ad",
+        "Icon": "#FFFFFF"
+    }
+}

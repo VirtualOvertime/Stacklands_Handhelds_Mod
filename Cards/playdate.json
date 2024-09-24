@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "descriptionTerm": "handhelds_playdate_description",
+    "icon": "playdate.png",
+    "id": "handhelds_playdate",
+    "nameTerm": "handhelds_playdate_name",
+    "type": "Equipable",
+    "value": 8,
+    "_IsShiny": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#d2be7d",
+        "Color2": "#b7a161",
+        "Icon": "#FFFFFF"
+    }
+}

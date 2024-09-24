@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "descriptionTerm": "handhelds_3ds_description",
+    "icon": "3ds.png",
+    "id": "handhelds_3ds",
+    "nameTerm": "handhelds_3ds_name",
+    "type": "Equipable",
+    "value": 6,
+    "_IsShiny": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#9795a7",
+        "Color2": "#747381",
+        "Icon": "#FFFFFF"
+    }
+}

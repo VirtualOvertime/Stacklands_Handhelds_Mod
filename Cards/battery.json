@@ -1,0 +1,10 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "handhelds_battery",
+    "nameTerm": "handhelds_battery_name",
+    "descriptionTerm": "handhelds_battery_description",
+    "icon": "battery.png",
+    "canStack": true,
+    "value": 1,
+    "type": "Resources"
+}

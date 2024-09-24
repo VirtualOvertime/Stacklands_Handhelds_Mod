@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "descriptionTerm": "handhelds_switch_description",
+    "icon": "switch.png",
+    "id": "handhelds_switch",
+    "nameTerm": "handhelds_switch_name",
+    "type": "Equipable",
+    "value": 10,
+    "_IsShiny": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#5d5d63",
+        "Color2": "#444449",
+        "Icon": "#FFFFFF"
+    }
+}

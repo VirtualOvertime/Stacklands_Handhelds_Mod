@@ -3,13 +3,20 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace ExampleModNS
+namespace HandheldsNS
 {
-    public class ExampleMod : Mod
+    public class Handhelds : Mod
     {
         public override void Ready()
         {
-            Logger.Log("Ready!");
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.BasicResources, "handhelds_gameboy", 1);
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedResources, "handhelds_psp", 1);
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedResources, "handhelds_3ds", 1);
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedResources, "handhelds_switch", 1);
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedResources, "handhelds_steamdeck", 1);
+            WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedResources, "handhelds_playdate", 1);
+
+            Logger.Log("Mod is Ready!");
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "descriptionTerm": "handhelds_psp_description",
+    "icon": "psp.png",
+    "id": "handhelds_psp",
+    "nameTerm": "handhelds_psp_name",
+    "type": "Equipable",
+    "value": 5,
+    "_IsShiny": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#363636",
+        "Color2": "#202020",
+        "Icon": "#FFFFFF"
+    }
+}

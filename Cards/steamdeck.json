@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "descriptionTerm": "handhelds_steamdeck_description",
+    "icon": "steamdeck.png",
+    "id": "handhelds_steamdeck",
+    "nameTerm": "handhelds_steamdeck_name",
+    "type": "Equipable",
+    "value": 15,
+    "_IsShiny": true,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#353349",
+        "Color2": "#1b1a31",
+        "Icon": "#FFFFFF"
+    }
+}
